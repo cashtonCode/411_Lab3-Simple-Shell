@@ -116,16 +116,16 @@ int main(){
 			//no parameters
 			//display the user manual. Write in reference to the above 7 supported commands. Plus something else.
 			std::cout << "  myprocess        - Return the current process ID." << std::endl
-								<< "  allprocesses     - Return all current processes." << std::endl
-								<< "  chgd <directory> - Change the working directory to <directory>." << std::endl
-								<< "  clr              - Clear the screen" << std::endl
-								<< "  dir <directory>  - List the contents of directory <directory. Blank <directory> will list the contents of the current directory." << std::endl
-								<< "  environ          - List all the environment settings." << std::endl
-								<< "  quit             - Quit the shell. Displays history file to the screen." << std::endl
-								<< "  help             - Display the user manual." << std::endl
-								<< "  repeat <string>  - outputs the string to the console. If user types a redirection operator '>' after the string, then redirect to the file specified." << std::endl
-								<< "  hiMom            - Prints a message." << std::endl
-								<< "  all other inputs - Sent to the parent shell for execution." << std::endl;
+				  << "  allprocesses     - Return all current processes." << std::endl
+				  << "  chgd <directory> - Change the working directory to <directory>." << std::endl
+				  << "  clr              - Clear the screen" << std::endl
+				  << "  dir <directory>  - List the contents of directory <directory. Blank <directory> will list the contents of the current directory." << std::endl
+				  << "  environ          - List all the environment settings." << std::endl
+				  << "  quit             - Quit the shell. Displays history file to the screen." << std::endl
+				  << "  help             - Display the user manual." << std::endl
+				  << "  repeat <string>  - outputs the string to the console. If user types a redirection operator '>' after the string, then redirect to the file specified." << std::endl
+				  << "  hiMom            - Prints a message." << std::endl
+				  << "  all other inputs - Sent to the parent shell for execution." << std::endl;
 		}
 		else if(first_word == "repeat")
 		{
